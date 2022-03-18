@@ -1,0 +1,11 @@
+.scrollButton {
+	color: white;
+	width: 8%;
+	padding: 20px 0;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: -63px;
+	background-color: #eab777;
+	cursor: pointer;
+}

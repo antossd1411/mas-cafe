@@ -1,0 +1,28 @@
+.Background {
+	background-color: #eab777;
+	background-image: url("/img/infoBackground.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.h1 {
+	font-size: 5rem;
+	letter-spacing: 1rem;
+	text-align: center;
+}
+
+.h2 {
+	text-align: right;
+	color: #413a3a;
+	font-family: "Geo";
+	font-size: 5rem;
+	font-weight: normal;
+}
+
+.borderedH1 {
+	font-size: 5rem;
+	letter-spacing: 1rem;
+	color: #eab777;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: #413a3a;
+}

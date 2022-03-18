@@ -1,0 +1,23 @@
+.card {
+	position: relative;
+	margin: 0 15px;
+}
+
+.card p {
+	position: absolute;
+	width: 100%;
+	height: 325px;
+	top: 0;
+	left: 0;
+	background-color: #ff7301;
+	opacity: 0;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	transition: opacity 2s;
+	z-index: 1;
+}
+
+.card p:hover {
+	opacity: 0.8;
+}

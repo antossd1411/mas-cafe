@@ -1,0 +1,44 @@
+.main {
+	background-image: url("../public/img/infoBackground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.map {
+	width: 100%;
+	cursor: pointer;
+}
+
+.inputContainer {
+	border-bottom: 1px solid grey;
+	margin-bottom: 1.5rem;
+}
+
+.inputContainer label {
+	margin-bottom: 1rem;
+	font-weight: bold;
+}
+
+.inputContainer input {
+	width: 100%;
+	outline: none;
+	font-size: 20px;
+}
+
+.inputContainer textarea {
+	width: 100%;
+	resize: none;
+	font-size: 20px;
+}
+
+.submitButton {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #ff7301;
+	padding: 10px 0;
+	margin: 0 auto;
+	display: block;
+	width: 15%;
+	border-radius: 20px;
+}
